@@ -1,0 +1,44 @@
+.box{
+    border: 0px ;
+    height: 450px;
+    width:600px;
+    margin-left: 350px;
+    margin-top: 80px;
+}
+header{
+    background-color: blue;
+    height:50px;
+    width: 100%;
+    color:white;
+    text-align: center;    
+}
+.mid{
+    background-color: yellow;
+    padding:20px;
+    height:150px;
+}
+label{
+    margin-left: 70px;
+    
+}
+.amount{
+    margin-left: 257px;
+    margin-top: 20px;
+}
+input{
+    margin-top: 20px;
+}
+button{
+    margin-top:30px;
+    margin-left: 190px;
+    background-color: blue;
+    color: white;
+    padding:10px;
+}
+
+th{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    width:150px;    
+}

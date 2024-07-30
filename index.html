@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="box">
+    <header>
+  <h2>Add a new transaction:</h2>
+</header>
+<div class="mid">
+  <label for="type">Type:</label>
+  <select id="type">
+    <option value="income">Income</option>
+    <option value="expense">Expense</option>
+  </select>
+  <label for="name">Name:</label>
+  <input type="text" id="name"><br>
+  <label for="amount" class="amount">Amount:</label>
+  <input type="number" id="amount"><br>
+  <button onclick="addTransaction()">Add to transactions</button>
+</div>
+<footer>
+<table>
+    <tr>
+      <th>Type</th>
+      <th>Name</th>
+      <th>Amount</th>
+      <th>Options</th>
+    </tr>
+  <tr id="transaction">
+    </tr>
+</table>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
